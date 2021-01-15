@@ -14,10 +14,10 @@ const Navigation = () => {
     <div className="container">
       <nav>
         <a style={linkStyle} href="./#">
-          VOCABULARY
+          LESSONSS
         </a>
-        <a style={linkStyle} href="./RemindWordComponent">
-          REMIND WORDS
+        <a style={linkStyle} href="./Dictionary">
+          DICTIONARY
         </a>
       </nav>
     </div>

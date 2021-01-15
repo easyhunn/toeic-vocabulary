@@ -1,5 +1,4 @@
 import React from "react";
-import Percent from "./percent";
 import "./cardStyle.css";
 
 const cardComponent = ({ name, note, link = "#", auxNote = "" }) => {
@@ -15,7 +14,6 @@ const cardComponent = ({ name, note, link = "#", auxNote = "" }) => {
         </div>
         <p>{note}</p>
         <i>{auxNote}</i>
-        <Percent percent="11" />
       </div>
     </div>
   );
